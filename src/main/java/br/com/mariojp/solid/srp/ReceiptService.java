@@ -6,8 +6,8 @@ public class ReceiptService {
 	private final ReceiptFormatter receiptFormatter;
 
 	public ReceiptService() {
-		this.taxCalculator = new TaxCalculator();       // cria internamente
-		this.receiptFormatter = new ReceiptFormatter(); // cria internamente
+		this.taxCalculator = new TaxCalculator();
+		this.receiptFormatter = new ReceiptFormatter();
 	}
 
 	public String generate(Order order) {
